@@ -24,6 +24,14 @@ set(CPP_AND_H_PROJECT_FILES main.cpp)
 set(VALUES_DIR values)
 add_subdirectory(${VALUES_DIR})
 
+        # values/CMakeLists.txt
+        #
+        #set(CPP_AND_H_PROJECT_FILES ${CPP_AND_H_PROJECT_FILES}
+        #    ${VALUES_DIR}/testvalue.h
+        #    ${VALUES_DIR}/testvalue.cpp
+        #)
+        #include_directories(${VALUES_DIR})
+
 #########################################################
 
 
